@@ -1,0 +1,11 @@
+apiVersion: v1
+entries:
+  clusterissuer:
+  - created: "2021-03-18T22:45:59.223451+03:00"
+    description: "A cert manager ClusterIssuer resource for Route53 dns01 challenge."
+    home: https://containerskit.github.io/charts/clusterissuer
+    name: clusterissuer
+    version: 0.1.0
+    sources:
+    - https://containerskit.github.io/charts/clusterissuer
+generated: "2021-03-18T22:45:59.223451+03:00"
