@@ -16,8 +16,8 @@ spec:
           hostedZoneID: {{ .Values.hostedZoneID }}
           role: {{ .Values.role }}
           accessKeyIDSecretRef:
-            name: {{ .Valuees.secretRef }}
+            name: {{ .Values.secretRef }}
             key: {{ .Values.accessKeyRef }}
           secretAccessKeySecretRef:
-            name: {{ .Valuees.secretRef }}
+            name: {{ .Values.secretRef }}
             key: {{ .Values.secretKeyRef }}
