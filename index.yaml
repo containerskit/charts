@@ -3,12 +3,12 @@ entries:
   clusterissuer:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-03-19T11:02:46.533267+03:00"
+    created: "2021-03-19T11:45:29.503406+03:00"
     description: Create a ClusterIssuer for cert-manager
-    digest: 65fe757b13b594d1235575e63da79e5098c7a31037924d004ddd153b5d35aa5c
+    digest: 18baba3fd389909e2cb78afe1c445f337e51e2b63033adac8d82c66fc97ed24b
     name: clusterissuer
     type: application
     urls:
     - https://github.com/containerskit/charts/releases/download/0.1.0/clusterissuer-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-19T11:02:46.532868+03:00"
+generated: "2021-03-19T11:45:29.503025+03:00"
