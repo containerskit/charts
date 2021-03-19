@@ -9,6 +9,6 @@ entries:
     name: clusterissuer
     type: application
     urls:
-    - https://containerskit.github.io/charts/clusterissuer-0.1.0.tgz
+    - https://github.com/containerskit/charts/releases/download/0.1.0/clusterissuer-0.1.0.tgz
     version: 0.1.0
 generated: "2021-03-19T11:02:46.532868+03:00"
