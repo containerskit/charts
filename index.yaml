@@ -1,14 +1,25 @@
 apiVersion: v1
 entries:
-  clusterissuer:
+  certificate:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-03-19T18:06:35.736698+03:00"
-    description: Create a ClusterIssuer for cert-manager
-    digest: 087705c4d617cf1b1af57bacb8c708c411ae572900dc67f9809860cfd194147d
-    name: clusterissuer
+    created: "2021-03-24T23:24:43.776768+03:00"
+    description: Create a Cert Manager's Certificate resource.
+    digest: 20852ab06bc086297e6595ff0fc77ee3b2d6605d09dbd41cd731ff2f374edc2c
+    name: certificate
     type: application
     urls:
-    - https://github.com/containerskit/charts/releases/download/0.1.0/clusterissuer-0.1.0.tgz
+    - https://github.com/containerskit/charts/releases/download/0.1.0/certificate-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-19T18:06:35.736212+03:00"
+  cluster-issuer:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2021-03-24T23:24:43.777024+03:00"
+    description: Create a Cert Manager's ClusterIssuer resource.
+    digest: e3279582f1398b9c6adf3902759010f8509578c0a4c39a9a9f2a696f7aa2994b
+    name: cluster-issuer
+    type: application
+    urls:
+    - https://github.com/containerskit/charts/releases/download/0.1.0/cluster-issuer-0.1.0.tgz
+    version: 0.1.0
+generated: "2021-03-24T23:24:43.775952+03:00"

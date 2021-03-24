@@ -1,6 +1,6 @@
 apiVersion: v2
-name: clusterissuer
-description: Create a ClusterIssuer for cert-manager
+name: cluster-issuer
+description: Create a Cert Manager's ClusterIssuer resource.
 
 # A chart can be either an 'application' or a 'library' chart.
 #
