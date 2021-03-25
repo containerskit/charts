@@ -2,7 +2,6 @@ kind: DaemonSet
 apiVersion: apps/v1
 metadata:
   name: csi-node
-  namespace: {{ .Release.Namespace }}
 spec:
   updateStrategy:
     type: RollingUpdate

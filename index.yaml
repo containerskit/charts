@@ -3,7 +3,7 @@ entries:
   certificate:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-03-25T10:51:29.707788+03:00"
+    created: "2021-03-25T19:31:06.20437+03:00"
     description: Create a Cert Manager's Certificate resource.
     digest: 20852ab06bc086297e6595ff0fc77ee3b2d6605d09dbd41cd731ff2f374edc2c
     name: certificate
@@ -14,7 +14,7 @@ entries:
   cluster-issuer:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-03-25T10:51:29.708005+03:00"
+    created: "2021-03-25T19:31:06.2046+03:00"
     description: Create a Cert Manager's ClusterIssuer resource.
     digest: e3279582f1398b9c6adf3902759010f8509578c0a4c39a9a9f2a696f7aa2994b
     name: cluster-issuer
@@ -25,12 +25,12 @@ entries:
   yandex-csi-driver:
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2021-03-25T10:51:29.70829+03:00"
+    created: "2021-03-25T19:31:06.204895+03:00"
     description: Create Yandex CSI driver from Flant.
-    digest: edfe99a55c8f9fb6fb116eff076d469fcd7783e890db5498cc0fe16b6d24edee
+    digest: 9b22c21450f177cec5afc13ab318cae095414e3167e708e7dcbb0f1bcd76bf88
     name: yandex-csi-driver
     type: application
     urls:
     - https://github.com/containerskit/charts/releases/download/0.1.0/yandex-csi-driver-0.1.0.tgz
     version: 0.1.0
-generated: "2021-03-25T10:51:29.707374+03:00"
+generated: "2021-03-25T19:31:06.203943+03:00"
