@@ -35,8 +35,8 @@ spec:
         - "--v=9"
         - "--csi-address=/csi/csi.sock"
         volumeMounts:
-          - name: socket-dir
-            mountPath: /csi
+        - name: socket-dir
+          mountPath: /csi
       - name: csi-resizer
         # https://github.com/flant/external-resizer/tree/faster-workqueue
         image: flant/external-resizer:v0.4.0-flant.1
@@ -44,16 +44,16 @@ spec:
         - "--v=9"
         - "--csi-address=/csi/csi.sock"
         volumeMounts:
-          - name: socket-dir
-            mountPath: /csi
+        - name: socket-dir
+          mountPath: /csi
       - name: csi-snapshotter
         image: quay.io/k8scsi/csi-snapshotter:v2.1.1
         args:
         - "--v=9"
         - "--csi-address=/csi/csi.sock"
         volumeMounts:
-          - name: socket-dir
-            mountPath: /csi
+        - name: socket-dir
+          mountPath: /csi
       - name: csi-controller
         image: flant/yandex-csi-plugin:v0.9.7
         args:
